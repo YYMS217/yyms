@@ -1,0 +1,4 @@
+function pageload(){
+    document.getElementById('header').innerHTML = '<div id="head-img"><img src="./img/tsyyms.png" id="logo"/></div><div id="head-menu"><ul><li><a href="./" class="head-url">首页</a></li><li><a href="" class="head-url" target="_blank">新闻综合</a></li><li><a href="" class="head-url" target="_blank">校园风光</a></li><li><a href="" class="head-url" target="_blank">行政系统</a></li><li><a href="" class="head-url" target="_blank">相关资料</a></li><li><a href="" class="head-url" target="_blank">关于本站</a></li></ul></div>';
+    document.getElementById('footer').innerHTML = '<div id="f-left"><img src="/img/scan.jpg" /></div><div id="f-right">本站并非官方网站。<br>Powered by <a href="https://github.com/YYMS217">yyms217</a></div>';
+};

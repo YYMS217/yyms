@@ -1,0 +1,23 @@
+#aim{
+    width: 60vw;
+    border: 0.5vw inset greenyellow;
+    margin-left: 20vw;
+    padding: 0.5vw 0.5vw 0.5vw 1vw;
+}
+#how{
+    width: 60vw;
+    margin-top: 5vw;
+    margin-left: 20vw;
+    padding: 0.5vw 0.5vw 0.5vw 1vw;
+    border: 0.5vw inset green;
+    margin-bottom: 2.5vw;
+}
+#aim > p, #how > p{
+    line-height: 180%;
+}
+#aim > h2, #how > h2{
+    text-align: center;
+}
+#waline{
+    margin-top: 2.5vw;
+}

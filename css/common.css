@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background: #fff0f5;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 5px;
+    padding: 0.5vw;
+}
+#logo{
+    width: 20vw;
+}
+#head-img,#head-menu{
+    display: inline-block;
+}
+#head-menu > ul, #head-menu > ul >li{
+    list-style-type: none;
+    display: inline-block;
+}
+#head-menu{
+    float: right;
+    margin-right: 3vw;
+}
+.head-url{
+    color: #222222;
+    text-decoration: none;
+    border-right: 0.1vw #333333 solid;
+    margin-left: 0.2vw;
+    padding-right: 0.3vw;
+    font-size: 130%;
+}
+.head-url:hover{
+    color: #333333;
+}
+#dialogue{
+    background: #888888;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 5px;
+    padding: 0.5vw;
+    text-align: center;
+    font-size: 120%;
+}
+#dialogue >a{
+    text-decoration: none;
+    color: #fff0f5;
+    font-weight: bold;
+}
+#dialogue > a > sup{
+    color: #ffabaf;
+    font-size: 80%;
+}
+#gate > img{
+    width: 98vw;
+    margin-left: 1vw;
+    margin-right: 1vw;   
+}
+#footer{
+    background: #fff0f5;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 5vw;
+    padding: 0.5vw;
+}
+#f-left {
+    display: inline-block;
+}
+#f-left > img{
+    width: 15vw;
+    margin-left: 1vw;
+}
+#f-right{
+    float: right;
+    vertical-align: text-bottom;
+    color: #333333;
+}
+#f-right >a{
+    text-decoration: none;
+    color: #111111;
+}

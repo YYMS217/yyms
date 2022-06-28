@@ -1,0 +1,49 @@
+<html>
+<head>
+    <script src="/js/common.js" type="text/javascript"></script>
+    <link href="/css/common.css" rel="stylesheet" type="text/css" />
+    <link href="/css/dia.css" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+  />
+    <title>Dialogue with teachers - 唐山市友谊中学 Tangshan YouYi middle school</title>
+</head>
+<body>
+    <header id="header">
+        
+    </header>
+    <h1 class="youzhong" align="center">Dialogue with teachers</h1>
+    <div id="aim">
+        <h2>Why do we have this column?</h2>
+        <p>We plan to have a new column - Dialogue with Teachers on the school English website. I think it is a good way for both teachers and students to develop a good relationship. If we often have a dialogue, we will understand each other better and become friends. We will also have a chance to give our teachers some suggestions on homework, after-school activities, and even the way of teaching. Our teachers will know what we expect and they will help us learn better.
+        <br>
+        I believe with the help of this column, we will enjoy a rich and colorful school life.
+        </p>
+    </div>
+    <div id="how">
+        <h2>How to use this column?</h2>
+        <p>
+            <b>The web page uses <a href="https://waline.js.org">Waline</a>. And you can use Markdown with this plugin.</b>
+            <br>
+            After entering your name, your e-mail and your site, you can put down what you want to say to your teachers or classmates into the text area. <b>Notice:</b> We DO NOT advise anyone especially students to enter your real name as the site is in public and everyone in the world can see it. But your e-mail is OK because you can receive messages if you have been replied. If you have no sites, just leave a blank.
+            <br>
+            Remember to be polite when discussing. As one of the aims of the column, You had better use English.But using Chinese is allowed. Be polite and careful when you dialogue with teachers. Be fair when you evaluate teachers. The column is not expected to be one place for bad ones to abuse or bully someone.
+            <br>
+            If you have any questions, just ask us. Have a good time!
+        </p>
+    </div>
+    <hr id="hr">
+    <div id="waline"></div>
+  <script>
+    Waline.init({
+      el: '#waline',
+      serverURL: 'https://d.yyms.ml/',
+    });
+  </script>
+    <footer id="footer"></footer>
+</body>
+    <script>pageload();</script>
+</html>
