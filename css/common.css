@@ -80,3 +80,9 @@ body{
     text-decoration: none;
     color: #111111;
 }
+.content{
+    padding: 1vw;
+}
+a{
+    text-decoration: none;
+}
